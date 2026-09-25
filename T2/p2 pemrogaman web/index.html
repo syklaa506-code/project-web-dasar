@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Bandung</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        nav {
+            background-color: #444;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            width: 80%;
+            margin: 30px auto;
+            background-color: white;
+            padding: 25px;
+            border-radius: 10px;
+        }
+
+        /* UKURAN FOTO */
+        .foto {
+            width: 150px;
+            height: auto;
+            display: block;
+            margin: 15px auto;
+            border-radius: 10px;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        p {
+            line-height: 1.7;
+            text-align: justify;
+        }
+
+        .gambar-wisata {
+            width: 200px;
+            height: 130px;
+            object-fit: cover;
+            margin: 10px;
+            border-radius: 8px;
+        }
+
+        .galeri {
+            text-align: center;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Bandung</h1>
+        <p>Kota Kembang Jawa Barat</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#sejarah">Sejarah</a>
+        <a href="#geografis">Geografis</a>
+        <a href="#wisata">Wisata</a>
+    </nav>
+
+    <div class="container">
+
+        <section id="home">
+            <h2>Bandung</h2>
+
+            <img src="bandung-badge.png" alt="Foto Bandung" class="foto">
+
+            <p>
+                Bandung merupakan ibu kota Provinsi Jawa Barat.
+                Kota ini dikenal sebagai Kota Kembang dan memiliki
+                banyak tempat wisata serta berbagai macam kuliner.
+            </p>
+        </section>
+
+        <section id="sejarah">
+            <h2>Sejarah Bandung</h2>
+
+            <img src="history.jpg" alt="Sejarah Bandung" class="gambar-wisata">
+
+            <p>
+                Bandung memiliki sejarah yang panjang dan berkembang
+                menjadi salah satu kota penting di Jawa Barat.
+                Kota ini juga memiliki banyak bangunan dan tempat
+                bersejarah yang masih dapat dikunjungi hingga sekarang.
+            </p>
+        </section>
+
+        <section id="geografis">
+            <h2>Geografis Bandung</h2>
+
+            <img src="geografis.jpg" alt="Geografis Bandung" class="gambar-wisata">
+
+            <p>
+                Bandung berada di wilayah Jawa Barat dan dikelilingi
+                oleh pegunungan. Kondisi geografis tersebut membuat
+                Bandung memiliki udara yang relatif sejuk.
+            </p>
+        </section>
+
+        <section id="wisata">
+            <h2>Tempat Wisata</h2>
+
+            <div class="galeri">
+
+                <img src="bosscha.jpg"
+                     alt="Bosscha"
+                     class="gambar-wisata">
+
+                <img src="farm-house.jpg"
+                     alt="Farm House"
+                     class="gambar-wisata">
+                    
+    </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>© 2026 Profil Bandung</p>
+    </footer>
+
+</body>
+</html>
