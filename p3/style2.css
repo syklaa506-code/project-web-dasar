@@ -1,0 +1,25 @@
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+}
+
+.container .box-1 {
+    background-color: red;
+    padding: 20px;
+    margin: 20px;
+}
+
+.container .box-2 {
+    background-color: blue;
+    padding: 20px;
+    margin: 20px;
+}
+
+.container .box-3 {
+    background-color: green;
+    padding: 20px;
+    margin: 20px;
+}
